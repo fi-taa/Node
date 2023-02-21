@@ -15,3 +15,36 @@ const fs = require('fs');
 // fs.writeFile('./blog.txt',"nodes world",()=>{
 //     console.log("Done!");
 // })
+
+// create and delete a directory
+
+// if(fs.existsSync('./assets')){
+//     console.log("deleting...");
+//     fs.rmdir('./assets/svg',(err)=>{
+//         if(err){
+//             console.log(err);
+//         }
+//         console.log("Removed!");
+//     });
+    
+// }else{
+//     fs.mkdirSync('./assets/pngtxt',(err)=>{
+//         console.log("Creating...");
+//         if(err){
+//             console.log(err);
+//         }
+//         console.log("Created!");
+//     });
+    
+// }
+
+// delete files
+
+// if(fs.existsSync('./blog.txt')){
+//     fs.unlinkSync('./blog.txt',(err)=>{
+//         if(err){
+//             console.log(err);
+//         }
+//         console.log("file Removed!");
+//     });
+// }
